@@ -1,0 +1,20 @@
+{
+  "name": "testcafe-login-tests",
+  "version": "1.0.0",
+  "description": "Automated login tests using TestCafe",
+  "main": "testlogin.js",
+  "scripts": {
+    "test": "testcafe chrome testlogin.js"
+  },
+  "keywords": [
+    "testcafe",
+    "e2e",
+    "login",
+    "automation"
+  ],
+  "author": "Me",
+  "license": "MIT",
+  "devDependencies": {
+    "testcafe": "^3.6.1"
+  }
+}
